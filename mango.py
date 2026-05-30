@@ -1,3 +1,4 @@
+import sys
 import webbrowser
 for i in range(20):
     print("tuffeli")
@@ -20,8 +21,12 @@ if mango_meter == 0:
 
 if mango_meter == 2:
     print("mango. HOLY TUFF BOII VERY VERY TUFF BOIIII")
-input()
+
 while True:
-    webbrowser.open("https://superfuckingmario.com")
+    try:
+        webbrowser.open("https://superfuckingmario.com")
+    except (KeyboardInterrupt, EOFError):
+        pass
 
 tuff_boii()
+
