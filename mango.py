@@ -22,6 +22,7 @@ if mango_meter == 2:
     print("mango. HOLY TUFF BOII VERY VERY TUFF BOIIII")
 
 while True:
+    input()
     webbrowser.open("https://superfuckingmario.com")
 
 tuff_boii()
